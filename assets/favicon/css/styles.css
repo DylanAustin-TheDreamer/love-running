@@ -1,3 +1,12 @@
+/* Importing fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 /* asterisk wild card selecter to target all elements*/
 *{
     padding: 0;
@@ -12,6 +21,7 @@ body{
     flex-direction: column;
     /* Generic Project Styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 header{
