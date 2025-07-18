@@ -18,6 +18,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+p{
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    padding-top: 5px;
+}
+
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -97,6 +103,24 @@ main {
     position: relative;
 }
 
+/* for the benefits image */
+#circle-cover-bg{
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#benefits-image{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #cover-text{
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
@@ -113,6 +137,23 @@ main {
     color: #ffffff;
 }
 
+/* for my reasons section*/
+#reasons > h2{
+    font-size: 280%;
+    text-align: center;
+}
+#reasons{
+    
+    margin: auto 20px auto 20px;
+    width: 90%;
+    left: 25%
+}
+
+/* Div containers in reasons */
+#benefits h3 {
+    margin-top: 20px;
+    border-bottom: 2px solid;
+}
 /* Footer */
 #social-networks{
     text-align: center;
