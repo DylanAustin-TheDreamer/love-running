@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -39,7 +39,36 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form method ="post" action="https://formdump.codeinstitute.net" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i>Lets get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input class="text.input" id="first-name" type="text" name="first-name"><br>
+                <label for="last-name">Last Name</label>
+                <input class="text.input" id="last-name" type="text" name="last-name"><br>
+                <label for="email-address">Email Address</label>
+                <input class="text.input" id="email-address" type="email" name="email-address"><br>
+
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input id="road" type="radio" value="road" name="running_preference" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input id="trail" type="radio" value="trail" name="running_preference" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input id="both" type="radio" value="both" name="running_preference" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="join-button" >Let's Run!</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
